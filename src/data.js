@@ -27,32 +27,24 @@ export const data = {
         { to: 'couple', text: 'Couple' },
         { to: 'events', text: 'Events' },
         { to: 'moment', text: 'Moment' },
-        { to: 'location', text: 'Location' },
+        { to: 'message', text: 'Message' }, // Tambahkan ini agar navigasi ke pesan ada
       ],
     },
     couple: {
       title: 'Meet Happy Couple',
       groom: {
-        name: 'DICKY MUHAMAD RIZKY',
+        name: 'HARTONO',
         photo: require('./assets/images/couple/1.jpg'),
         status: 'GROOM',
-        socmed: {
-          facebook: '',
-          twitter: '',
-          instagram: 'https://www.instagram.com/dickymr_/',
-        },
-        description: 'The first son of Aan Kandarjaya and Maria Antoniqeu',
+        socmed: { facebook: '', twitter: '', instagram: '#' },
+        description: 'The son of Mr. X and Mrs. Y',
       },
       bride: {
-        name: 'IRA SRI QODARWATI',
+        name: 'MILANI ROSMITA',
         photo: require('./assets/images/couple/2.jpg'),
         status: 'BRIDE',
-        socmed: {
-          facebook: '',
-          twitter: '',
-          instagram: 'https://www.instagram.com/irasq_/',
-        },
-        description: 'The third daughter of Dedi Rahmat Suardi and Entin Wartini',
+        socmed: { facebook: '', twitter: '', instagram: '#' },
+        description: 'The daughter of Mr. A and Mrs. B',
       },
     },
     events: {
@@ -60,129 +52,35 @@ export const data = {
         type: 'ceremony',
         foto: require('./assets/images/events/ceremony.png'),
         title: 'THE CEREMONY',
-        date: 'Saturday, July 18th 2020',
-        time: '02.00 PM - 05.00 PM',
-        address: {
-          line1: 'Kp. Nagla Ds. Sukapura',
-          line2: 'Kec. Kertasari Kab. Bandung',
-          line3: '-',
-        },
+        date: 'Saturday, September 18th 2027',
+        time: '09.00 AM - 11.00 AM',
+        address: { line1: 'Alamat Akad Nikah', line2: 'Kota Bandung', line3: '-' },
       },
       reception: {
         type: 'reception',
         foto: require('./assets/images/events/reception.png'),
         title: 'THE RECEPTION',
-        date: 'Saturday, September 5th 2020',
-        time: '10.00 AM - 04.00 PM',
-        address: {
-          line1: 'Kampung Budaya',
-          line2: 'Jl. Pasir Garut RT. 01 RW. 08 Ds. Wangisagara',
-          line3: 'Kec. Majalaya Kab. Bandung',
-        },
+        date: 'Saturday, September 18th 2027',
+        time: '12.00 PM - 05.00 PM',
+        address: { line1: 'Gedung Resepsi', line2: 'Kota Bandung', line3: '-' },
       },
     },
     moment: {
       images: [
-        {
-          src: require('./assets/images/moment/1.jpg'),
-          thumbnail: require('./assets/images/moment/thumbnails/1.jpg'),
-          thumbnailWidth: 320,
-          thumbnailHeight: 200,
-        },
-        {
-          src: require('./assets/images/moment/2.jpg'),
-          thumbnail: require('./assets/images/moment/thumbnails/2.jpg'),
-          thumbnailWidth: 240,
-          thumbnailHeight: 320,
-        },
-        {
-          src: require('./assets/images/moment/3.jpg'),
-          thumbnail: require('./assets/images/moment/thumbnails/3.jpg'),
-          thumbnailWidth: 320,
-          thumbnailHeight: 200,
-        },
-        {
-          src: require('./assets/images/moment/4.jpg'),
-          thumbnail: require('./assets/images/moment/thumbnails/4.jpg'),
-          thumbnailWidth: 240,
-          thumbnailHeight: 320,
-        },
-        {
-          src: require('./assets/images/moment/5.jpg'),
-          thumbnail: require('./assets/images/moment/thumbnails/5.jpg'),
-          thumbnailWidth: 320,
-          thumbnailHeight: 200,
-        },
-        {
-          src: require('./assets/images/moment/6.jpg'),
-          thumbnail: require('./assets/images/moment/thumbnails/6.jpg'),
-          thumbnailWidth: 240,
-          thumbnailHeight: 320,
-        },
-        {
-          src: require('./assets/images/moment/7.jpg'),
-          thumbnail: require('./assets/images/moment/thumbnails/7.jpg'),
-          thumbnailWidth: 320,
-          thumbnailHeight: 200,
-        },
-        {
-          src: require('./assets/images/moment/8.jpg'),
-          thumbnail: require('./assets/images/moment/thumbnails/8.jpg'),
-          thumbnailWidth: 320,
-          thumbnailHeight: 200,
-        },
-        {
-          src: require('./assets/images/moment/9.jpg'),
-          thumbnail: require('./assets/images/moment/thumbnails/9.jpg'),
-          thumbnailWidth: 240,
-          thumbnailHeight: 320,
-        },
-        {
-          src: require('./assets/images/moment/10.jpg'),
-          thumbnail: require('./assets/images/moment/thumbnails/10.jpg'),
-          thumbnailWidth: 320,
-          thumbnailHeight: 200,
-        },
-        {
-          src: require('./assets/images/moment/11.jpg'),
-          thumbnail: require('./assets/images/moment/thumbnails/11.jpg'),
-          thumbnailWidth: 240,
-          thumbnailHeight: 320,
-        },
-        {
-          src: require('./assets/images/moment/12.jpg'),
-          thumbnail: require('./assets/images/moment/thumbnails/12.jpg'),
-          thumbnailWidth: 320,
-          thumbnailHeight: 200,
-        },
-        {
-          src: require('./assets/images/moment/13.jpg'),
-          thumbnail: require('./assets/images/moment/thumbnails/13.jpg'),
-          thumbnailWidth: 240,
-          thumbnailHeight: 320,
-        },
-        {
-          src: require('./assets/images/moment/14.jpg'),
-          thumbnail: require('./assets/images/moment/thumbnails/14.jpg'),
-          thumbnailWidth: 320,
-          thumbnailHeight: 240,
-        },
-        {
-          src: require('./assets/images/moment/15.jpg'),
-          thumbnail: require('./assets/images/moment/thumbnails/15.jpg'),
-          thumbnailWidth: 240,
-          thumbnailHeight: 320,
-        },
-        {
-          src: require('./assets/images/moment/16.jpg'),
-          thumbnail: require('./assets/images/moment/thumbnails/16.jpg'),
-          thumbnailWidth: 320,
-          thumbnailHeight: 240,
-        },
+        { src: require('./assets/images/moment/1.jpg'), thumbnail: require('./assets/images/moment/thumbnails/1.jpg'), thumbnailWidth: 320, thumbnailHeight: 200 },
+        { src: require('./assets/images/moment/2.jpg'), thumbnail: require('./assets/images/moment/thumbnails/2.jpg'), thumbnailWidth: 240, thumbnailHeight: 320 },
       ],
     },
+    // INI BAGIAN YANG TADI HILANG DAN BIKIN BLANK PUTIH
+    message: {
+      title: 'Kirim Ucapan',
+      description: 'Berikan doa restu untuk kami',
+      items: [
+        { name: 'Sistem', text: 'Selamat datang di undangan kami!' }
+      ]
+    },
     location: {
-      maps: 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d349.96908978547026!2d107.73943603648561!3d-7.073913208208633!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e68c15fe08bdc0f%3A0x8d86ab2ef152e2da!2sGor%20Sabilulungan!5e0!3m2!1sid!2sid!4v1595907723515!5m2!1sid!2sid',
+      maps: 'https://www.google.com/maps',
     },
   },
 };
