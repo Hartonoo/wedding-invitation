@@ -5,8 +5,8 @@ export const data = {
       bgm: 'https://cdngarenanow-a.akamaihd.net/gstaticid/BMG/wildwet/sounds/love-song-3.mp3',
     },
     header: {
-      bgImageLandscape: [require('./assets/images/bg-1.jpg'), require('./assets/images/bg-2.jpg'), require('./assets/images/bg-3.jpg')],
-      bgImagePortrait: [require('./assets/images/bg-4.jpg')],
+      bgImageLandscape: [require('./assets/images/bg1.jpg'), require('./assets/images/bg2.jpg'), require('./assets/images/bg3.jpg')],
+      bgImagePortrait: [require('./assets/images/bg4.jpg')],
       bridegroom: 'Hartono & Milani Rosmita',
       desc: 'ARE GETTING MARRIED',
       date: 'SEPTEMBER 18TH, 2027',
